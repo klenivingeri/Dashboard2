@@ -2,6 +2,7 @@ import { Flex, Avatar, Text,Divider } from "@chakra-ui/react";
 import { BiTimeFive } from 'react-icons/bi'
 
 export function Messages(props){
+    const img = "assets/avatar/" + props.avatar
     return(
         <>
         <Flex flex="1" alignItems="center">
@@ -9,7 +10,7 @@ export function Messages(props){
             <Avatar
                 size="sm"
                 name="Kola Tioluwani"
-                src="assets/avatar/avatar1.png"
+                src={img}
             />
             <Flex flex="1" mx="2" flexDirection="column">
                 <Flex flex="1" fontSize="13"  flexDirection="row" alignItems="center">

@@ -27,12 +27,12 @@ export function NotificationBody(){
                         <NotificationTab />
 
                     </List>
-                </TabPanel>
-                <TabPanel>
-                    <Messages name="Erick" message="Ciao socis notaque penatibus..." />
-                    <Messages name="João" message="Main socis notaque penibus..." />
-                    <Messages name="Pedro" message="Notific socis aque penibus..." />
-                    <Messages name="Maria" message="Home socis noe penatbus..." />
+                </TabPanel > 
+                <TabPanel p="0" pt="2">
+                    <Messages avatar="avatar1.png" name="Erick" message="Ciao socis notaque penatibus..." />
+                    <Messages avatar="avatar3.png" name="João" message="Main socis notaque penibus..." />
+                    <Messages avatar="avatar4.png" name="Pedro" message="Notific socis aque penibus..." />
+                    <Messages avatar="avatar5.png" name="Maria" message="Home socis noe penatbus..." />
                 </TabPanel>
             </TabPanels>
         </Tabs>
