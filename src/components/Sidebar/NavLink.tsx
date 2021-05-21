@@ -17,7 +17,7 @@ export function NavLink({icon, children, href, ...rest }: NavLinkProps){
         alignItems="center"
         borderRadius="3"
         px="2"
-        mx="1"
+        
         height="65px"
         borderBottom="4px"
         borderColor="white"
@@ -30,7 +30,7 @@ export function NavLink({icon, children, href, ...rest }: NavLinkProps){
         }}
         >
             <Icon as={icon} fontSize="20"/>
-            <Text ml="4" fontWeight="medim" >{children}</Text>
+            <Text ml="2" fontWeight="medim" >{children}</Text>
         </ChakraLink>
         </ActiveLink>
     )

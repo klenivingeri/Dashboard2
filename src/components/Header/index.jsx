@@ -35,8 +35,9 @@ export default function Header(){
                 <Flex 
                     display="flex"
                     alignItems="center"
+                    
                 >
-                    <FaBuilding fontSize={25} />
+                    <FaBuilding fontSize={20} />
                     <Select 
                         mx="3" 
                         width="200" 
